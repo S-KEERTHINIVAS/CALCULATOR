@@ -92,7 +92,7 @@
             let result = document.getElementById("result");
             let h1=document.createElement("h1");
             if (number2 !== 0) {
-                h1.textContent = "RESULT(/): " + (number1 / number2);
+                h1.textContent = "RESULT(/): " + (number1 / number2).toFixed(3);
             } else {
                 h1.textContent = "RESULT: Cannot divide by zero";
             }
